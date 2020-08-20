@@ -1,0 +1,57 @@
+#skills_heading{
+    position: relative;
+    top: 860px;
+    left: 597px;
+    font-size: 60px;
+    color: white;
+}
+
+ #language{
+    position: relative;
+    top: 900px;
+    left: 650px;
+    font-size: 30px;
+    color:white;
+} 
+
+
+
+.c{
+    position: absolute;
+    top: 1145px;
+    left: 660px;
+    width: 20%;
+
+}
+
+.cpp{
+    position: absolute;
+    top: 1240px;
+    left: 660px;
+    width: 20%;
+
+}
+
+.Java{
+    position: absolute;
+    top: 1145px;
+    left: 970px;
+    width: 20%;
+
+}
+
+.Python{
+    position: absolute;
+    top: 1240px;
+    left: 970px;
+    width: 20%;
+
+}
+
+#hr2{
+    position: relative;
+    top: 1143px;
+    left: 170px;
+    width: 20%;
+
+}

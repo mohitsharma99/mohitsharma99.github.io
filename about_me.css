@@ -1,0 +1,53 @@
+
+/* class is access using'.' and id is access using '#' */
+.aboutme{
+    position: relative;
+    top: 100px;
+    left: 680px;
+    color: white;
+}
+
+#name_heading{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+ 
+}
+
+#para1{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    top: 82px;
+    left: 43px;
+}
+#para2{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    top: 198px;
+    left: -114px;
+}
+#para3{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    top: 281px;
+    left: -114px;
+}
+
+#para4{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    top: 370px;
+    left: -114px;
+}
+
+#hr1{
+    position: absolute;
+    top: 490px;
+    left: 90px;
+    width: 20%;
+
+}

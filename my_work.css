@@ -1,0 +1,41 @@
+#work_heading{
+    position: relative;
+    top: 1350px;
+    left: 597px;
+    font-size: 60px;
+    color: white;
+    
+}
+
+#css
+{
+    position: relative;
+    top: 1350px;
+    left: 597px;
+    font-size: 20px;
+    color: white;
+}
+.project img{
+    position: relative;
+    margin: 10px;
+    top: 1350px;
+    left: 590px;
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.project img:hover{
+    opacity: 0.5;
+}
+
+
+
+#hr3{
+    position: relative;
+    top: 1500px;
+    left: 170px;
+    width: 20%;
+
+}

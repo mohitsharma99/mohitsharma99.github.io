@@ -1,0 +1,99 @@
+/* remove extra horizontal space */
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+   }
+   /* #section1 {
+    height: 500px;
+   
+  }
+  
+  #section2 {
+    height: 500px;
+    
+  }
+  #section3 {
+    height: 500px;
+    
+  }
+  
+  #section4 {
+    height: 500px;
+    
+  } */
+
+/*  background black box properties */
+.blackBox{
+    position: absolute;
+    background-color: rgb(56, 49, 49);
+    width: 1100px;
+    height: auto;
+    top: 0px;
+    left: 13%;
+    overflow-x: hidden;
+  
+}
+
+/* for red strip properties */
+.redBox{
+    position: relative;
+        left: 100px;
+        background-color:rgb(155, 37, 37);
+        width: 200px;
+        height: 744px;
+        color:white;
+}
+
+/* profile picture properties */
+.redBox img{
+    position: relative;
+    left: 24px;
+    top: 50px;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+/* name heading properties */
+#name{
+    position: relative;
+    left: 27px;
+    top: 30px;
+    font-size: 25px;
+}
+
+/* Button class  */
+
+.Button{ 
+    /* display flex is a type of property. you can search more about it*/
+    display: flex;   
+    /* coloum direction shows button in coloums */
+    flex-direction: column; 
+}
+
+/* It is the way to access button in "Button" class */
+.Button button{
+    position: relative;
+    background-color:rgb(155, 37, 37);
+    border-style: none;  /* It makes disable the default rendering of the button.*/
+    color: white; /*make text white*/
+    top: 160px;
+    padding: 7px;
+    border-bottom: solid white; /*it makes only bottom border*/
+    height: 50px;
+    cursor: pointer; /*when cursor puts on button, it shows hand symbol*/
+}
+
+/*hover property: when cursor on any button, it's properties will be changed */
+/*active property: when button class is active, it's properties will be changed*/ 
+button.active, .Button :hover{
+
+    background-color: white;
+    color: rgb(155, 37, 37);
+}
+
+
+
+
+
+
